@@ -413,9 +413,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Developer
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@lakshya-bhartiya](https://github.com/lakshya-bhartiya)
+- LinkedIn: [Lakshya Bhartiya](https://www.linkedin.com/in/lakshya-bhartiya-7a5863243?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bu1MUYB6DSfCvzt5lPUqHKQ%3D%3D)
+- Email: lakshyabhartiya77@gmail.com
 
 ---
 
@@ -431,7 +431,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email your.email@example.com or create an issue in the repository.
+For support, email lakshyabhartiya77@gmail.com or create an issue in the repository.
 
 ---
 
