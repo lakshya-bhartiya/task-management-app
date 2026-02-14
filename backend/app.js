@@ -2,16 +2,25 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const session = require('express-session');
-const passport = require('./api/config/passport');
-const routes = require('./api/routes');
+const passport = require('./config/passport');
+const routes = require('./route');
 
 const app = express();
 
-// Middleware
+// ✅ Updated CORS Configuration
 app.use(cors({
-  origin: process.env.FRONTEND_URL,
-  credentials: true
+  origin: [
+    'http://localhost:3000',                                      // Local development
+    'http://localhost:5173',                                      // Vite default port
+    'https://task-management-app-nine-sandy.vercel.app',         // Production frontend
+    process.env.FRONTEND_URL                                      // From env variable
+  ].filter(Boolean), // Remove undefined values
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 }));
+
+// Rest of the code remains same...
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
